@@ -1,0 +1,11 @@
+model:
+  bin_function: "entmoid15"
+  choice_function: "entmax15"
+  depth: 6
+  layer_dim: 256
+  num_layers: 4
+  d_embedding: 256
+training:
+  lr: 1.0e-3
+  weight_decay: 0.0
+  optimizer: "adam"

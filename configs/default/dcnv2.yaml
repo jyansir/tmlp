@@ -1,0 +1,13 @@
+model:
+  cross_dropout: 0.2
+  d: 64
+  hidden_dropout: 0.2
+  n_cross_layers: 3
+  n_hidden_layers: 3
+  stacked: false
+  d_embedding: 64
+training:
+  lr: 5.0e-4
+  weight_decay: 1.0e-6
+  optimizer: "adamw"
+  

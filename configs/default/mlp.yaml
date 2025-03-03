@@ -1,0 +1,12 @@
+model:
+  n_layers: 3
+  first_dim: 64
+  mid_dim: 32
+  last_dim: 64
+  dropout: 0.2  
+  d_embedding: 128
+
+training:
+  lr: 1.0e-3
+  weight_decay: 0.0
+  optimizer: "adamw"
